@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f7f8fc">
+<title>King of Nifty | Free Telegram Channel</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+html,body{
+  width:100%;
+  min-height:100%;
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+  background:#f7f8fc;
+  color:#151724;
+  padding:28px 14px 55px;
+}
+
+.page{
+  width:100%;
+  max-width:700px;
+  margin:0 auto;
+  text-align:center;
+}
+
+/* ONLINE */
+.online{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  background:#e7f7eb;
+  color:#318a48;
+  border-radius:30px;
+  padding:14px 28px;
+  font-size:20px;
+  font-weight:700;
+  margin:0 auto 44px;
+}
+
+.online-dot{
+  width:14px;
+  height:14px;
+  border-radius:50%;
+  background:#20bf55;
+}
+
+/* PROFILE */
+.profile{
+  width:210px;
+  height:210px;
+  border-radius:50%;
+  object-fit:cover;
+  border:7px solid #fff;
+  box-shadow:0 10px 30px rgba(0,0,0,.12);
+  display:block;
+  margin:0 auto 28px;
+}
+
+/* HEADING */
+h1{
+  font-size:40px;
+  line-height:1.1;
+  margin-bottom:12px;
+  font-weight:800;
+  letter-spacing:-1px;
+}
+
+.tagline{
+  color:#1470df;
+  font-size:25px;
+  font-weight:700;
+  margin-bottom:28px;
+}
+
+/* RATING */
+.stars{
+  color:#f39a08;
+  font-size:34px;
+  letter-spacing:2px;
+  margin-bottom:5px;
+}
+
+.rating{
+  color:#858585;
+  font-size:23px;
+  margin-bottom:36px;
+}
+
+/* BUTTON */
+.cta{
+  display:block;
+  width:100%;
+  padding:25px 18px;
+  border-radius:22px;
+  color:white;
+  background:linear-gradient(100deg,#0877ff,#0759d8);
+  text-decoration:none;
+  font-size:25px;
+  font-weight:800;
+  box-shadow:0 10px 24px rgba(0,101,230,.22);
+  margin:0 0 34px;
+  transition:.2s;
+}
+
+.cta:active{
+  transform:scale(.99);
+}
+
+/* STATS */
+.stats{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px;
+  margin-bottom:40px;
+}
+
+.stat{
+  background:#fff;
+  border-radius:23px;
+  padding:25px 8px 24px;
+  box-shadow:0 7px 22px rgba(0,0,0,.06);
+}
+
+.stat strong{
+  display:block;
+  color:#0870df;
+  font-size:34px;
+  margin-bottom:5px;
+}
+
+.stat span{
+  font-size:20px;
+}
+
+/* TEXT */
+.heading{
+  font-size:29px;
+  line-height:1.45;
+  font-weight:800;
+  margin-bottom:14px;
+}
+
+.heading .blue{
+  color:#0870df;
+}
+
+.sub{
+  color:#8b8b8b;
+  font-size:20px;
+  line-height:1.5;
+  margin-bottom:36px;
+}
+
+/* NOTICE */
+.notice{
+  background:#fff2df;
+  color:#d46118;
+  border-radius:30px;
+  padding:16px 15px;
+  font-size:20px;
+  font-weight:700;
+  margin-bottom:34px;
+}
+
+/* FEATURES */
+.features{
+  display:flex;
+  flex-direction:column;
+  gap:16px;
+  margin-bottom:35px;
+}
+
+.feature{
+  display:flex;
+  align-items:center;
+  text-align:left;
+  background:#fff;
+  border-radius:22px;
+  min-height:94px;
+  padding:20px 28px;
+  box-shadow:0 7px 22px rgba(0,0,0,.055);
+  font-size:23px;
+  line-height:1.3;
+}
+
+.icon{
+  width:48px;
+  min-width:48px;
+  font-size:32px;
+  margin-right:18px;
+  text-align:center;
+}
+
+/* DISCLAIMER */
+.disclaimer{
+  color:#a1a1a1;
+  font-size:16px;
+  line-height:1.55;
+  margin:36px 5px 48px;
+}
+
+.disclaimer b{
+  display:block;
+  margin-bottom:5px;
+}
+
+/* FOOTER */
+.footer{
+  border-top:1px solid #d9d9d9;
+  padding-top:31px;
+  color:#898989;
+  font-size:20px;
+}
+
+.footer a{
+  color:#0b6fda;
+  font-weight:800;
+  text-decoration:none;
+}
+
+/* MOBILE */
+@media(max-width:520px){
+
+  body{
+    padding:28px 14px 45px;
+  }
+
+  .online{
+    font-size:18px;
+    padding:13px 23px;
+    margin-bottom:43px;
+  }
+
+  .profile{
+    width:210px;
+    height:210px;
+  }
+
+  h1{
+    font-size:37px;
+  }
+
+  .tagline{
+    font-size:23px;
+  }
+
+  .stars{
+    font-size:31px;
+  }
+
+  .rating{
+    font-size:22px;
+  }
+
+  .cta{
+    font-size:23px;
+    padding:24px 12px;
+  }
+
+  .stats{
+    gap:14px;
+  }
+
+  .stat{
+    padding:23px 4px;
+  }
+
+  .stat strong{
+    font-size:32px;
+  }
+
+  .stat span{
+    font-size:19px;
+  }
+
+  .heading{
+    font-size:27px;
+  }
+
+  .sub{
+    font-size:19px;
+  }
+
+  .feature{
+    font-size:21px;
+    padding:19px 22px;
+    min-height:92px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<main class="page">
+
+  <!-- ONLINE TRADERS -->
+  <div class="online">
+    <span class="online-dot"></span>
+    <span>5,947 Traders Online Now</span>
+  </div>
+
+
+  <!-- PROFILE IMAGE -->
+  <!-- Apni image ke liye profile.jpg use kar sakte ho -->
+  <img
+    class="profile"
+    src="profile.jpg"
+    alt="Profile">
+
+
+  <!-- MAIN TITLE -->
+  <h1>KING OF NIFTY</h1>
+
+  <div class="tagline">
+    🏆 India's No.1 Stock Market Channel
+  </div>
+
+
+  <!-- RATING -->
+  <div class="stars">
+    ★★★★★
+  </div>
+
+  <div class="rating">
+    4.9/5 (2340 Reviews)
+  </div>
+
+
+  <!-- FIRST TELEGRAM BUTTON -->
+  <a
+    class="cta"
+    href="https://t.me/YOUR_TELEGRAM_USERNAME"
+    target="_blank"
+    rel="noopener noreferrer">
+
+    Join Free Telegram Channel →
+
+  </a>
+
+
+  <!-- STATS -->
+  <section class="stats">
+
+    <div class="stat">
+      <strong>50K+</strong>
+      <span>Members</span>
+    </div>
+
+    <div class="stat">
+      <strong>5+</strong>
+      <span>Years</span>
+    </div>
+
+    <div class="stat">
+      <strong>95%</strong>
+      <span>Accuracy</span>
+    </div>
+
+  </section>
+
+
+  <!-- MAIN TEXT -->
+  <div class="heading">
+
+    Get <span class="blue">FREE</span> Daily Calls<br>
+
+    for NIFTY, BANKNIFTY &amp; SENSEX
+
+  </div>
+
+
+  <div class="sub">
+
+    Join thousands of traders getting daily market analysis
+
+  </div>
+
+
+  <!-- LIMITED ACCESS -->
+  <div class="notice">
+
+    🔥 Limited FREE Access Available
+
+  </div>
+
+
+  <!-- FEATURES -->
+  <section class="features">
+
+    <div class="feature">
+
+      <span class="icon">📊</span>
+
+      <span>
+        Daily Nifty &amp; BankNifty Levels
+      </span>
+
+    </div>
+
+
+    <div class="feature">
+
+      <span class="icon">🎓</span>
+
+      <span>
+        Educational Market Analysis
+      </span>
+
+    </div>
+
+
+    <div class="feature">
+
+      <span class="icon">👥</span>
+
+      <span>
+        50,000+ Subscribers Community
+      </span>
+
+    </div>
+
+  </section>
+
+
+  <!-- SECOND TELEGRAM BUTTON -->
+  <a
+    class="cta"
+    href="https://t.me/YOUR_TELEGRAM_USERNAME"
+    target="_blank"
+    rel="noopener noreferrer">
+
+    Join Free Telegram Channel →
+
+  </a>
+
+
+  <!-- DISCLAIMER -->
+  <div class="disclaimer">
+
+    <b>Disclaimer:</b>
+
+    This channel is for educational purposes only.
+    Trading involves market risk.
+    Please consult your financial advisor before making
+    investment decisions.
+
+  </div>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    🔥 Powered by
+
+    <a
+      href="https://t.me/YOUR_ADS_LINK"
+      target="_blank"
+      rel="noopener noreferrer">
+
+      ADSBUILD AGENCY
+
+    </a>
+
+  </footer>
+
+</main>
+
+</body>
+</html>
