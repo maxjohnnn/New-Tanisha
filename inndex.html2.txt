@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#f7f8fc">
-<title>King of Nifty | Free Telegram Channel</title>
+<title>TANISHA GARG | Free Telegram Channel</title>
 
 <style>
 *{
@@ -314,12 +314,12 @@ h1{
   <!-- Apni image ke liye profile.jpg use kar sakte ho -->
   <img
     class="profile"
-    src="profile.jpg"
+    src="tanisha.jpg"
     alt="Profile">
 
 
   <!-- MAIN TITLE -->
-  <h1>KING OF NIFTY</h1>
+  <h1>TANISHA GARG </h1>
 
   <div class="tagline">
     🏆 India's No.1 Stock Market Channel
@@ -339,7 +339,7 @@ h1{
   <!-- FIRST TELEGRAM BUTTON -->
   <a
     class="cta"
-    href="https://t.me/YOUR_TELEGRAM_USERNAME"
+    href="https://t.me/+z-2buFZxDwc5OWU1"
     target="_blank"
     rel="noopener noreferrer">
 
@@ -435,7 +435,7 @@ h1{
   <!-- SECOND TELEGRAM BUTTON -->
   <a
     class="cta"
-    href="https://t.me/YOUR_TELEGRAM_USERNAME"
+    href="https://t.me/+z-2buFZxDwc5OWU1"
     target="_blank"
     rel="noopener noreferrer">
 
@@ -467,7 +467,7 @@ h1{
       target="_blank"
       rel="noopener noreferrer">
 
-      ADSBUILD AGENCY
+      Maxjohn AGENCY
 
     </a>
 
